@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+*/
+
+/* Number of geese */
+"%d geese landed" = "%d geese landed";
+
+/* An error message */
+"net.rossillo.error" = "An error message";
