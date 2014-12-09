@@ -7,3 +7,6 @@
 
 /* An error message */
 "net.rossillo.error" = "An error message";
+
+/* A network error message */
+"net.rossillo.network.error" = "An error message";
