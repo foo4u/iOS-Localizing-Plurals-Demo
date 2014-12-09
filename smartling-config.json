@@ -7,7 +7,7 @@
   ],
   "resourceSets": [
     {
-      "pathRegex" : "SwiftDemo/Geese/Geese/en.lproj/.+\\.strings",
+      "pathRegex" : "/SwiftDemo/Geese/Geese/en.lproj/.+\\.strings",
       "type" : "ios",
       "authorizeContent" : "true"
     }
