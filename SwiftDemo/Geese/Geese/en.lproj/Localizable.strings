@@ -10,3 +10,6 @@
 
 /* A network error message */
 "net.rossillo.network.error" = "An error message";
+
+/* Another network error message */
+"net.rossillo.network.error.down" = "Network down";
