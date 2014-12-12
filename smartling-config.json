@@ -3,6 +3,10 @@
     {
       "smartling" : "es",
       "application" : "es"
+    },
+    {
+      "smartling" : "fr-FR",
+      "application" : "fr"
     }
   ],
   "resourceSets": [
