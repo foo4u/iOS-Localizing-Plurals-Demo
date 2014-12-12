@@ -1,12 +1,12 @@
 {
   "locales" : [
     {
-      "smartling" : "zh-CN",
-      "application" : "zh-Hans"
+      "smartling" : "fr-FR",
+      "application" : "fr-FR"
     },
     {
-      "smartling" : "zh-TW",
-      "application" : "zh-Hant"
+      "smartling" : "es-ES",
+      "application" : "es-ES"
     }
   ],
   "resourceSets": [
