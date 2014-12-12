@@ -13,3 +13,5 @@
 
 /* Another network error message */
 "net.rossillo.network.error.down" = "Network down";
+
+"net.rossillo.foo" = "Foo";
