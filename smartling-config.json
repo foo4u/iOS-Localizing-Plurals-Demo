@@ -2,11 +2,7 @@
   "locales" : [
     {
       "smartling" : "fr-FR",
-      "application" : "fr-FR"
-    },
-    {
-      "smartling" : "es",
-      "application" : "es-ES"
+      "application" : "fr"
     }
   ],
   "resourceSets": [
