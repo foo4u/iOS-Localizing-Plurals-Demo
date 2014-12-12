@@ -15,3 +15,5 @@
 "net.rossillo.network.error.down" = "Network down";
 
 "net.rossillo.foo" = "Foo";
+
+"net.rossillo.bar" = "Bar";
