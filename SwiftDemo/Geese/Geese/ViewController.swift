@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
     @IBOutlet weak var label : UILabel?
-    private let items : [Int] = [0, 1, 2, 3, 4]
+    private let items : [Int] = [0, 1, 2, 3, 4, 5]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +34,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     // MARK: UIPickerViewDelegate
 
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
-        var x = self.items[row]
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        let x = self.items[row]
         return "\(x)"
     }
 
@@ -44,9 +44,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
 
     private func updateLabel(x : (Int)) {
-        var fmt = NSBundle.mainBundle().localizedStringForKey("%d geese landed", value:"\(x)", table: "Localizable")
-        self.label?.text = String(format: fmt, x)
+        let fmt = NSBundle.mainBundle().localizedStringForKey("geese.landed.ct", value:"\(x)", table: "Localizable")
+        self.label?.text = String(format: fmt, x, x)
     }
 
 }
-
