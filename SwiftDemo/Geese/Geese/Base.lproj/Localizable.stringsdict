@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>%d geese landed</key>
+	<key>geese.landed.ct</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%1#@geese@</string>
+		<string>%1#@geese@ landed in a field.</string>
         <key>geese</key>
         <dict>
             <key>NSStringFormatSpecTypeKey</key>
@@ -13,18 +13,12 @@
             <key>NSStringFormatValueTypeKey</key>
             <string>d</string>
             <key>zero</key>
-            <string>No geese landed</string>
+            <string>No geese</string>
             <key>one</key>
-            <string>A goose landed</string>
-            <key>two</key>
-            <string>A pair of geese landed</string>
-            <key>few</key>
-            <string>A few geese landed</string>
-            <key>many</key>
-            <string>A flock of geese landed</string>
+            <string>A goose</string>
             <key>other</key>
-            <string>%d geese landed</string>
+            <string>%d geese</string>
         </dict>
-	</dict>
+    </dict>
 </dict>
 </plist>

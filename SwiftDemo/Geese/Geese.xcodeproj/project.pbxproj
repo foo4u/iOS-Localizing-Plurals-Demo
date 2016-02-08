@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20F22761C6908DF005A532E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20F22721C6908DF005A532E /* Localizable.strings */; };
+		D20F22771C6908DF005A532E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D20F22741C6908DF005A532E /* Localizable.stringsdict */; };
 		D2C82F8C1A14498B000CBEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C82F8B1A14498B000CBEB1 /* AppDelegate.swift */; };
 		D2C82F8E1A14498B000CBEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C82F8D1A14498B000CBEB1 /* ViewController.swift */; };
 		D2C82F911A14498B000CBEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C82F8F1A14498B000CBEB1 /* Main.storyboard */; };
 		D2C82F931A14498B000CBEB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C82F921A14498B000CBEB1 /* Images.xcassets */; };
 		D2C82F961A14498B000CBEB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C82F941A14498B000CBEB1 /* LaunchScreen.xib */; };
 		D2C82FA21A14498B000CBEB1 /* GeeseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C82FA11A14498B000CBEB1 /* GeeseTests.swift */; };
-		D2C82FB91A15251D000CBEB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C82FB51A15251D000CBEB1 /* Localizable.strings */; };
-		D2C82FBA1A15251D000CBEB1 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D2C82FB71A15251D000CBEB1 /* Localizable.stringsdict */; };
+		D2C82FC11A16909D000CBEB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C82FC31A16909D000CBEB1 /* InfoPlist.strings */; };
+		D2C82FC71A16909D000CBEB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C82FC91A16909D000CBEB1 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D20F22731C6908DF005A532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Geese/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D20F22751C6908DF005A532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Base; path = Geese/Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		D2C82F861A14498B000CBEB1 /* Geese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C82F8A1A14498B000CBEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C82F8B1A14498B000CBEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +42,10 @@
 		D2C82F9B1A14498B000CBEB1 /* GeeseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeeseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C82FA01A14498B000CBEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C82FA11A14498B000CBEB1 /* GeeseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeeseTests.swift; sourceTree = "<group>"; };
-		D2C82FB61A15251D000CBEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Geese/en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		D2C82FB81A15251D000CBEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = Geese/en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		D2C82FC21A16909D000CBEB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2C82FC41A16909D000CBEB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		D2C82FC81A16909D000CBEB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2C82FCA1A16909D000CBEB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +69,12 @@
 		D2C82F7D1A14498B000CBEB1 = {
 			isa = PBXGroup;
 			children = (
-				D2C82FB51A15251D000CBEB1 /* Localizable.strings */,
-				D2C82FB71A15251D000CBEB1 /* Localizable.stringsdict */,
+				D20F22721C6908DF005A532E /* Localizable.strings */,
+				D20F22741C6908DF005A532E /* Localizable.stringsdict */,
 				D2C82F881A14498B000CBEB1 /* Geese */,
 				D2C82F9E1A14498B000CBEB1 /* GeeseTests */,
 				D2C82F871A14498B000CBEB1 /* Products */,
+				EADE9A02C181EA5B1DD053A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,7 @@
 		D2C82F891A14498B000CBEB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2C82FC91A16909D000CBEB1 /* InfoPlist.strings */,
 				D2C82F8A1A14498B000CBEB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,9 +121,17 @@
 		D2C82F9F1A14498B000CBEB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2C82FC31A16909D000CBEB1 /* InfoPlist.strings */,
 				D2C82FA01A14498B000CBEB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EADE9A02C181EA5B1DD053A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +178,8 @@
 		D2C82F7E1A14498B000CBEB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Smartling, Inc.";
 				TargetAttributes = {
 					D2C82F851A14498B000CBEB1 = {
@@ -198,11 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20F22761C6908DF005A532E /* Localizable.strings in Resources */,
 				D2C82F911A14498B000CBEB1 /* Main.storyboard in Resources */,
-				D2C82FB91A15251D000CBEB1 /* Localizable.strings in Resources */,
+				D2C82FC71A16909D000CBEB1 /* InfoPlist.strings in Resources */,
 				D2C82F961A14498B000CBEB1 /* LaunchScreen.xib in Resources */,
-				D2C82FBA1A15251D000CBEB1 /* Localizable.stringsdict in Resources */,
 				D2C82F931A14498B000CBEB1 /* Images.xcassets in Resources */,
+				D20F22771C6908DF005A532E /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C82FC11A16909D000CBEB1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +263,27 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D20F22721C6908DF005A532E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20F22731C6908DF005A532E /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D20F22741C6908DF005A532E /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20F22751C6908DF005A532E /* Base */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
 		D2C82F8F1A14498B000CBEB1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D2C82F901A14498B000CBEB1 /* Base */,
+				D2C82FC41A16909D000CBEB1 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,24 +292,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				D2C82F951A14498B000CBEB1 /* Base */,
+				D2C82FCA1A16909D000CBEB1 /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		D2C82FB51A15251D000CBEB1 /* Localizable.strings */ = {
+		D2C82FC31A16909D000CBEB1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2C82FB61A15251D000CBEB1 /* en */,
+				D2C82FC21A16909D000CBEB1 /* es */,
 			);
-			name = Localizable.strings;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D2C82FB71A15251D000CBEB1 /* Localizable.stringsdict */ = {
+		D2C82FC91A16909D000CBEB1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2C82FB81A15251D000CBEB1 /* en */,
+				D2C82FC81A16909D000CBEB1 /* es */,
 			);
-			name = Localizable.stringsdict;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +336,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -362,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Geese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.rossillo.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -372,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Geese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.rossillo.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -390,6 +430,7 @@
 				);
 				INFOPLIST_FILE = GeeseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.rossillo.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geese.app/Geese";
 			};
@@ -405,6 +446,7 @@
 				);
 				INFOPLIST_FILE = GeeseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.rossillo.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geese.app/Geese";
 			};
@@ -429,6 +471,7 @@
 				D2C82FA71A14498B000CBEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C82FA81A14498B000CBEB1 /* Build configuration list for PBXNativeTarget "GeeseTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +480,7 @@
 				D2C82FAA1A14498B000CBEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

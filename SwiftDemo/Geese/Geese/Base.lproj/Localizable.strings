@@ -3,7 +3,7 @@
 */
 
 /* Number of geese */
-"%d geese landed" = "%d geese landed";
+"geese.landed.ct" = "%d geese landed on %d fields";
 
 /* An error message */
 "net.rossillo.error" = "An error message";
